@@ -1,0 +1,22 @@
+{
+  "name": "study_mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.4"
+  },
+  "devDependencies": {
+    "espower-loader": "^0.11.0",
+    "intelli-espower-loader": "^0.7.0",
+    "power-assert": "^0.11.0"
+  }
+}
