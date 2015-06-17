@@ -28,7 +28,6 @@
     "karma": "^0.12.36",
     "karma-browserify": "^4.2.1",
     "karma-chrome-launcher": "^0.1.12",
-    "karma-espower-preprocessor": "0.0.4",
     "karma-mocha": "^0.1.10",
     "mocha": "^2.2.5",
     "power-assert": "^0.11.0"

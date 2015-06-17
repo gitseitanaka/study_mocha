@@ -15,6 +15,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+			'js.front/*.js',
+      'test/front/*.js',
       'test/*.js'
     ],
 
@@ -29,7 +31,8 @@ module.exports = function(config) {
     //preprocessors: {
     //},
     preprocessors: {
-			'test/*.js': ['browserify']
+			'test/*.js': ['browserify'],
+			'test/front/*.js': ['browserify']
     },
 		
     browserify: {
