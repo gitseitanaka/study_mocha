@@ -22,15 +22,12 @@
   "devDependencies": {
     "babel-plugin-espower": "^1.0.0",
     "babelify": "^6.1.2",
-    "browserify": "^10.2.4",
     "espower-loader": "^0.11.0",
     "intelli-espower-loader": "^0.7.0",
-    "karma": "^0.12.36",
     "karma-browserify": "^4.2.1",
     "karma-chrome-launcher": "^0.1.12",
     "karma-mocha": "^0.1.10",
     "karma-mocha-reporter": "^1.0.2",
-    "mocha": "^2.2.5",
     "power-assert": "^0.11.0"
   }
 }
