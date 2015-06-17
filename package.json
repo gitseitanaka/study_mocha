@@ -1,22 +1,36 @@
 {
   "name": "study_mocha",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "* This repository is for my personal study of 'node.js'.\r * For study of \"mocha\" + \"power-assert\".",
+  "main": "study_mocha.js",
   "directories": {
     "test": "test/"
   },
+  "scripts": {
+    "test": "karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitseitanaka/study_mocha.git"
+  },
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "express": "^4.12.4"
+  "bugs": {
+    "url": "https://github.com/gitseitanaka/study_mocha/issues"
   },
+  "homepage": "https://github.com/gitseitanaka/study_mocha#readme",
   "devDependencies": {
+    "babel-plugin-espower": "^1.0.0",
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4",
     "espower-loader": "^0.11.0",
     "intelli-espower-loader": "^0.7.0",
+    "karma": "^0.12.36",
+    "karma-browserify": "^4.2.1",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-espower-preprocessor": "0.0.4",
+    "karma-mocha": "^0.1.10",
+    "mocha": "^2.2.5",
     "power-assert": "^0.11.0"
   }
 }
